@@ -7,7 +7,9 @@
             "email": "zyberspace@zyberware.org"
         }
     ],
-    "require": {
-
+    "autoload": {
+        "psr-0": {
+            "ZyberWare\\Application\\": "lib/"
+        }
     }
 }
