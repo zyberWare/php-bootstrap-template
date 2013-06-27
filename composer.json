@@ -1,0 +1,13 @@
+{
+    "name": "zyberware/application-core",
+    "license": "MPL-2.0",
+    "authors": [
+        {
+            "name": "zyberspace",
+            "email": "zyberspace@zyberware.org"
+        }
+    ],
+    "require": {
+
+    }
+}
