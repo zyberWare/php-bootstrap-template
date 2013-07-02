@@ -1,5 +1,6 @@
 {
     "name": "zyberware/application-core",
+    "type": "library",
     "license": "MPL-2.0",
     "authors": [
         {
