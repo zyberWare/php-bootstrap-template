@@ -1,6 +1,8 @@
 {
     "name": "zyberware/application-core",
+    "description": "A core for php-applications (not a framework)",
     "type": "library",
+    "homepage": "https://github.com/zyberWare/php-application-core",
     "license": "MPL-2.0",
     "authors": [
         {
