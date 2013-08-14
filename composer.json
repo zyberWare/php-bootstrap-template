@@ -10,6 +10,9 @@
             "email": "zyberspace@zyberware.org"
         }
     ],
+    "require": {
+        "zyberware/application-core-simple-router": "~1.0"
+    },
     "autoload": {
         "psr-0": {
             "ZyberWare\\Application\\": "lib/"
