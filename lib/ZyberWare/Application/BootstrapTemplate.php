@@ -8,8 +8,18 @@
  */
 namespace ZyberWare\Application;
 
+/**
+ * Basic template for bootstraps.
+ */
 abstract class BootstrapTemplate
 {
+    /**
+     * Calls all other public methods of the class, except itself.
+     *
+     * @param Core $application The application-core
+     *
+     * @todo Remove the application-core dependency and just pass all given parameters to the called methods.
+     */
     public function run(Core $application)
     {
         $reflection = new \ReflectionClass($this);
