@@ -14,19 +14,15 @@ namespace ZyberWare\Application;
 abstract class BootstrapTemplate
 {
     /**
-     * Calls all other public methods of the class, except itself.
-     *
-     * @param Core $application The application-core
-     *
-     * @todo Remove the application-core dependency and just pass all given parameters to the called methods.
+     * Calls all other public methods of the class, except itself and passes all given parameters to them.
      */
-    public function run(Core $application)
+    public function run()
     {
         $reflection = new \ReflectionClass($this);
         $methods = $reflection->getMethods(\ReflectionMethod::IS_PUBLIC);
         foreach ($methods as $method) {
             if ($method->name !== 'run') {
-                $method->invoke($this, $application);
+                $method->invokeArgs($this, func_get_args());
             }
         }
     }
