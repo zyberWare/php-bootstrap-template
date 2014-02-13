@@ -2,7 +2,7 @@
     "name": "zyberware/bootstrap-template",
     "description": "Basic template for bootstraps",
     "type": "library",
-    "homepage": "https://gitlab.zyberware.org/composer-zyberware/bootstrap-template.php",
+    "homepage": "https://gitlab.zyberware.org/composer-zyberware/bootstrap-template",
     "license": "MPL-2.0",
     "authors": [
         {
