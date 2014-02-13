@@ -1,8 +1,8 @@
 {
-    "name": "zyberware/application-core",
-    "description": "A core for php-applications (not a framework)",
+    "name": "zyberware/bootstrap-template",
+    "description": "Basic template for bootstraps",
     "type": "library",
-    "homepage": "https://github.com/zyberWare/php-application-core",
+    "homepage": "https://gitlab.zyberware.org/composer-zyberware/bootstrap-template.php",
     "license": "MPL-2.0",
     "authors": [
         {
@@ -10,12 +10,9 @@
             "email": "zyberspace@zyberware.org"
         }
     ],
-    "require": {
-        "zyberware/application-core-simple-router": "~1.0"
-    },
     "autoload": {
         "psr-0": {
-            "ZyberWare\\Application\\": "lib/"
+            "ZyberWare\\": "lib/"
         }
     }
 }

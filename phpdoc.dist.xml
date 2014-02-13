@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <phpdoc>
-    <title>zyberware/php-application-core</title>
+    <title>zyberware/bootstrap-template</title>
     <parser>
         <target>doc</target>
     </parser>
