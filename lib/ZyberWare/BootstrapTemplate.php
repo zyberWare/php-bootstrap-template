@@ -9,7 +9,7 @@
 namespace ZyberWare;
 
 /**
- * Basic template for bootstraps.
+ * Basic template for php-bootstraps.
  */
 abstract class BootstrapTemplate
 {
