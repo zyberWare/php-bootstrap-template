@@ -8,7 +8,8 @@ Example
 ```php
 class Bootstrap extends \ZyberWare\BootstrapTemplate
 {
-    public function doSomeStuff() {
+    public function doSomeStuff()
+    {
         ...
     }
 
