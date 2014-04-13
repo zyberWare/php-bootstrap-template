@@ -10,6 +10,9 @@
     <logging>
         <level>quiet</level>
     </logging>
+    <transformations>
+        <template name="clean" />
+    </transformations>
     <files>
         <directory>lib</directory>
     </files>
